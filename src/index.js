@@ -7,7 +7,7 @@ const readline = createInterface({
 });
 
 function startChatbot() {
-  console.log("Welcome to Nepal Chatbot! Type 'exit' to quit.");
+  console.log("Welcome to miniGPT: Ask about Nepal! Type 'exit' to quit.");
   
   function askQuestion() {
     readline.question("You: ", (input) => {
